@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Hedge | Live 80s pop &amp; rock band from the Wirral</title>
+  <meta name="description" content="The Hedge are a five-piece band from the Wirral playing 80s pop and rock with vocal harmonies, live across Merseyside and mid/north Cheshire.">
+  <meta name="theme-color" content="#10241a">
+
+  <!-- Social sharing preview. TODO: once the site has a web address, add og:url and make the image URL absolute (e.g. https://YOUR-DOMAIN/assets/og-image.jpg) -->
+  <meta property="og:title" content="The Hedge | Live 80s pop &amp; rock from the Wirral">
+  <meta property="og:description" content="Five-piece band playing 80s pop and rock with vocal harmonies across Merseyside and Cheshire.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-nav" id="top">
+    <a class="nav-logo" href="#top" aria-label="The Hedge, back to top">
+      <img src="assets/logo-white.png" alt="The Hedge" width="1600" height="523">
+    </a>
+    <nav aria-label="Main">
+      <a href="#gigs">Gigs</a>
+      <a href="#about">About</a>
+      <a href="#music">Music</a>
+      <a href="#video">Video</a>
+      <a href="#booking">Bookings</a>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" aria-label="The Hedge">
+    <picture>
+      <source type="image/webp" srcset="assets/hero-900.webp 900w, assets/hero-1600.webp 1600w" sizes="100vw">
+      <img class="hero-bg" src="assets/hero-1600.jpg" srcset="assets/hero-900.jpg 900w, assets/hero-1600.jpg 1600w" sizes="100vw"
+           alt="Two arms reach out towards each other from tall hedges either side of a grassy path" width="1600" height="2133">
+    </picture>
+    <div class="hero-shade"></div>
+    <div class="hero-content">
+      <h1 class="hero-logo">
+        <img src="assets/logo-white.png" alt="The Hedge" width="1600" height="523">
+      </h1>
+      <p class="tagline">Live 80s pop &amp; rock from the Wirral</p>
+      <div class="hero-actions">
+        <a class="btn btn-light" href="#gigs">Next gig</a>
+        <a class="btn btn-ghost" href="#booking">Book the band</a>
+      </div>
+    </div>
+    <a class="scroll-cue" href="#gigs" aria-label="Scroll to gigs"><span></span></a>
+  </section>
+
+  <main>
+
+    <!-- ===== NEXT GIGS ===== -->
+    <section class="section gigs" id="gigs">
+      <div class="wrap">
+        <p class="eyebrow">Come and see us</p>
+        <h2>Next gigs</h2>
+
+        <div class="gig-list">
+
+          <!--
+            ============ GIG CARD: copy from here ============
+            To add a gig: copy everything from "GIG CARD: copy from here" down to
+            "GIG CARD: end", paste it below, then change the date, venue, town,
+            time/ticket line and poster image. If there's no poster, delete the
+            whole <a class="gig-poster"> ... </a> block and the card still works.
+            Remove a card once the gig has happened.
+          -->
+          <article class="gig-card">
+            <a class="gig-poster" href="assets/poster-saddle-club-large.jpg" target="_blank" rel="noopener">
+              <picture>
+                <source type="image/webp" srcset="assets/poster-saddle-club.webp">
+                <img src="assets/poster-saddle-club.jpg" alt="Poster: The Hedge live at The Saddle Club, Prenton, Friday 6th November" width="900" height="1200" loading="lazy">
+              </picture>
+            </a>
+            <div class="gig-info">
+              <div class="gig-date">
+                <span class="day">Fri</span>
+                <span class="num">6</span>
+                <span class="month">Nov 2026</span>
+              </div>
+              <div>
+                <h3>The Saddle Club</h3>
+                <p class="gig-place">Prenton, Wirral</p>
+                <!-- TODO: add start time and ticket/entry details, e.g. "Doors 8pm · Free entry" -->
+                <p class="gig-meta">Time and entry details to follow</p>
+                <!-- TODO: optional ticket or Facebook event link: change href="#" and remove the "hidden" attribute -->
+                <a class="btn btn-dark btn-small" href="#" hidden>Tickets / event page</a>
+              </div>
+            </div>
+          </article>
+          <!-- ============ GIG CARD: end ============ -->
+
+        </div>
+
+        <p class="gigs-note">More dates coming soon. Follow us below so you don't miss them.</p>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section about" id="about">
+      <div class="wrap split">
+        <div>
+          <p class="eyebrow">About the band</p>
+          <h2>Five of us, one big 80s night out</h2>
+        </div>
+        <div class="prose">
+          <p>The Hedge are a five-piece band based on the Wirral, playing the big pop and rock songs of the 80s, played properly live with real vocal harmonies.</p>
+          <p>Drums, keys, bass, lead guitar and vocals, so those synth lines, guitar hooks and choruses sound the way you remember them.</p>
+          <ul class="lineup" aria-label="Line-up">
+            <li>Vocals</li><li>Lead guitar</li><li>Keys</li><li>Bass</li><li>Drums</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHAT WE PLAY ===== -->
+    <section class="section music" id="music">
+      <div class="wrap">
+        <p class="eyebrow">What we play</p>
+        <h2>Songs you'll be singing on the way home</h2>
+        <p class="lead">80s pop and rock with vocal harmonies, plus a few favourites from beyond. Expect a set that fills the dance floor and gets the whole room singing along, with songs by:</p>
+        <ul class="artists">
+          <li>Queen</li>
+          <li>U2</li>
+          <li>Supertramp</li>
+          <li>David Gray</li>
+          <li>Aztec Camera</li>
+          <li class="more">&hellip;and more</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== VIDEO ===== -->
+    <section class="section video" id="video">
+      <div class="wrap">
+        <p class="eyebrow">Watch</p>
+        <h2>See us live</h2>
+        <div class="video-frame">
+          <!--
+            TODO: VIDEO. When you have a YouTube video, replace the whole
+            <div class="video-placeholder"> ... </div> below with:
+            <iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID"
+                    title="The Hedge live" loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            (VIDEO_ID is the code after "v=" in the YouTube link.)
+          -->
+          <div class="video-placeholder">
+            <span class="play" aria-hidden="true"></span>
+            <p>Video coming soon</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOLLOW ===== -->
+    <section class="section follow" id="follow">
+      <div class="wrap center">
+        <p class="eyebrow">Follow us</p>
+        <h2>Keep up with new dates</h2>
+        <!-- TODO: SOCIALS. Replace each href="#" with the band's real page link, and delete any you don't use. -->
+        <ul class="socials">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">TikTok</a></li>
+          <li><a href="#">YouTube</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== BOOKING ===== -->
+    <section class="section booking" id="booking">
+      <div class="wrap split">
+        <div>
+          <p class="eyebrow">For venues &amp; promoters</p>
+          <h2>Booking enquiries</h2>
+          <p class="lead">Looking for a live band for a weekend, party night or ticketed show? We're taking bookings across Merseyside and mid/north Cheshire.</p>
+        </div>
+        <div>
+          <ul class="facts">
+            <li><strong>2 &times; 45 minute sets</strong><span>The usual band-night format</span></li>
+            <li><strong>Own PA &amp; lights</strong><span>We bring the full rig</span></li>
+            <li><strong>Flexible on fees</strong><span>Free-entry or ticketed nights</span></li>
+            <li><strong>Merseyside &amp; Cheshire</strong><span>Wirral based, happy to travel</span></li>
+          </ul>
+          <a class="btn btn-light btn-wide" href="mailto:thehedgeband@proton.me?subject=Booking%20enquiry%20for%20The%20Hedge">Email thehedgeband@proton.me</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <img src="assets/logo-white.png" alt="The Hedge" width="1600" height="523" loading="lazy">
+    <p>Live 80s pop &amp; rock &middot; Wirral &middot; Merseyside &amp; Cheshire</p>
+    <p class="small">&copy; <span id="year">2026</span> The Hedge &middot; <a href="#top">Back to top</a></p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
